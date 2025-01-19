@@ -1,13 +1,222 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkgrey;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.layout {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 35px;
+}
+
+.header .logo {
+  flex-grow: 2;
+  display: flex;
+}
+
+.header .logo span {
+  display: block;
+  font-size: 90px;
+  font-weight: bolder;
+  margin-top: -8px;
+}
+
+.header .logo h3 {
+  display: block;
+  flex-basis: 40px;
+  margin-left: 10px;
+  font-weight: 350;
+  text-transform: uppercase;
+}
+
+.header nav {
+  flex-grow: 2;
+}
+
+.header nav ul {
+  height: 132px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.header li {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.header li a {
+  color: black;
+  text-decoration: none;
+  transition: all 300ms;
+}
+.header .active,
+.header a:hover {
+  color: rgb(6, 2, 252);
+}
+
+.content {
+  min-height: 400px;
+}
+
+.footer {
+  min-height: 40px;
+  line-height: 7px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 80px;
+  padding-top: 45px;
+  border-top: 3px solid black;
+}
+
+.home h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+.home strong {
+  color: rgb(6, 2, 252);
+}
+
+.home h2 {
+  color: rgb(45, 49, 49);
+  font-weight: lighter;
+}
+
+.home .title a {
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(6, 2, 252);
+  text-decoration: none;
+  transition: all 300ms;
+}
+.home .title a:hover,
+button:hover {
+  background-color: darkcyan;
+}
+.page .heading,
+.home .heading {
+  font-size: 35px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.page .heading {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.page h2 {
+  color: blue;
+}
+
+.page li {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.home p {
+  color: rgb(45, 49, 49);
+}
+
+input[type="text"],
+textarea {
+  display: block;
+  padding: 15px;
+  margin-top: 25px;
+  width: 250px;
+}
+
+input[type="submit"],
+button {
+  font-size: 15px;
+  padding: 7px;
+  margin-top: 15px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(6, 2, 252);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 300ms;
+}
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-item {
+  flex-basis: 35%;
+  flex-grow: 1;
+  margin: 30px;
+}
+.work-item .mask{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  border: 1px solid #000980;
+  box-shadow: 0px 5px 14px #969acc;
+}
+.work-item img {
+  width: 150%;
+  margin-left: -20%;
+}
+.work-item img{
+  width: 120%;
+  transition: all 500ms;
+}
+.work-item .mask:hover img{
+  width: 150%;
+  margin-right: 30%;
+}
+.work-item span{
+  display: block;
+  color: rgb(4, 5, 80);
+  margin-top: 35px;
+  margin-bottom: 35px
+}
+.work-item h2{
+  display: block;
+  font-size: 30px;
+  color: rgb(24, 26, 109);
+  margin-top: 5px;
+}
+.work-item a{
+  color: #000980;
+  text-decoration: none;
+  transition: all 300ms;
+}
+.work-item a:hover{
+  color: #ee5012;
+}
+.work-item h3{
+  display: block;
+  color:#1621c0;
+  padding-top: 15px;
+  margin-top: 0px;
+  border-top: 1px solid #025c5f;
 }
