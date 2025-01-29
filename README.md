@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Pagina web - portfolio 📁
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una página web estática desarrollada en React, enfocada en servir como un portfolio personal. Permite mostrar tus proyectos y brindar a los visitantes una forma sencilla de contactarte.
+La información en el sitio es completamente estática, es decir, no utiliza una base de datos ni genera contenido dinámico.
 
-## Available Scripts
+## Tabla de Contenidos
 
-In the project directory, you can run:
+- [Características](#caracteristicas)
+- [Tecnologías](#tecnologias)
+- [Instalación](#instalacion)
+- [Interfaz](#interfaz)
+- [Despliegue](#despliegue)
+- [Contacto](#contacto)
 
-### `npm start`
+## Características 💬 <a id="caracteristicas"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Contiene barra de navegación. 👆
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Enlaces. 🔗
 
-### `npm test`
+- Formulario para contacto. 📲
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologías 🌐 <a id="tecnologias"></a>
 
-### `npm run build`
+- **React**: Biblioteca para la construcción de la interfaz de usuario.
+- **React Router DOM**: Manejo de rutas para la navegación entre secciones.
+- **Hooks de React**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de instalar, descargue e instale Node.js.☑️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clona el repositorio:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://github.com/freya-godoy/Red-Social-Backend.git
+```
 
-### `npm run eject`
+2. Instala dependencias del proyecto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Interfaz pagina web 📲 <a id="interfaz"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Inicio del Portfolio 📰
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Pantalla de inicio](./imagenes-readme/inicio-pagina-pirtafolio.png)
 
-## Learn More
+Muestra del Portfolio ⬇️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Pantalla de inicio](./imagenes-readme/muestra-portafolio-uno.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Pantalla de inicio](./imagenes-readme/muestra-portafolio-dos.png)
 
-### Code Splitting
+## Despliegue 📂 <a id="despliegue"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Despliegue desde la consola:
 
-### Analyzing the Bundle Size
+```sh
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contribuciones 👇
 
-### Making a Progressive Web App
+¡Las contribuciones son bienvenidas! Sigue estos pasos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Haz un fork del repositorio.
+2. Crea una rama nueva: `git checkout -b nueva-rama`.
+3. Realiza tus cambios y haz un commit: `git commit -m "Descripción"`.
+4. Sube los cambios: `git push origin nueva-rama`.
+5. Abre un Pull Request.
 
-### Advanced Configuration
+## Contacto 📬 <a id="contacto"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: freya.godoy.20@hotmail.com

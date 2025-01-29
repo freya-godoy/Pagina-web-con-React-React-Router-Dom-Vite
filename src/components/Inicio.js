@@ -6,7 +6,7 @@ const inicio = () => {
   return (
     <div className="home">
       <h1>
-        Hola, soy <strong>Gatito Espacial</strong> no es mi nombre, es un alias. Este es mi portafolio de presentacion como <strong>programadora.</strong>
+        Hola, soy <strong>Freya Godoy</strong> Este es mi portafolio de presentacion como <strong> programadora. </strong>
       </h1>
       <h2 className="title">
         Aca subire mis proyectos como programadora si te gusto alguno
